@@ -1,7 +1,7 @@
 {
   "name": "cipher-base",
   "version": "1.0.4",
-  "description": "abstract base class for crypto-streams",
+  "description": "patched abstract base class for crypto-streams",
   "main": "index.js",
   "scripts": {
     "test": "node test.js | tspec"
@@ -17,9 +17,9 @@
   "author": "Calvin Metcalf <calvin.metcalf@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/crypto-browserify/cipher-base/issues"
+    "url": "https://github.com/TrustlessComputer/patched-cipher-base/issues"
   },
-  "homepage": "https://github.com/crypto-browserify/cipher-base#readme",
+  "homepage": "https://github.com/TrustlessComputer/patched-cipher-base#readme",
   "dependencies": {
     "inherits": "^2.0.1",
     "safe-buffer": "^5.0.1"
